@@ -16,3 +16,11 @@ Project based express and react
 12. node -e "console.log(require('crypto').randomBytes(32).toString('hex'))" //Generate code random
 13. npm i express-validator
 14. npm i bcryptjs
+15. npm create vite@latest frontend-react -- --template react
+    npm install
+    npm run dev
+16. npm i axios js-cookie react-router-dom (axios - http req ke server, jscookie - set,get & remove token otentikasi, reactrouterdom - single page application)
+
+note:
+
+- Context : global state management in react

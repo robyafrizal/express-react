@@ -6,7 +6,7 @@ const router = require("./routes");
 
 //----------------------------------------------
 const app = express(); //init app
-const port = 3000; //define port
+const port = 1000; //define port
 
 app.use(cors()); //use cors
 app.use(bodyParser.urlencoded({ extended: false })); //use body-parser
@@ -15,7 +15,7 @@ app.use(bodyParser.json());
 //----------------------------------------------
 //route
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Hello Roby!");
 });
 
 app.use("/api", router);
